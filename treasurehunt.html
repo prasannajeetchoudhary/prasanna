@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manish Sir Ka Chakkar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fff6e8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      transition: background-color 0.5s ease;
+    }
+    .slide {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #fff;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 90%;
+      width: 400px;
+      transition: all 0.5s ease;
+    }
+    .slide.active {
+      display: flex;
+    }
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: #ffb84d;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #ffa733;
+    }
+    .letter-reveal {
+      font-size: 1.2em;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slide active">
+    <h1>Yo Yo!</h1>
+    <p>So aaj Prasannajeet is gonna tell you one of his<br><strong>funniest & most exhausting college incidents</strong> 😂<br><br>
+    If you're ready for chaos... click next! 👇</p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>Lesgooooo 🚀</h1>
+    <p>Fasten your seat belts...<br>Because jo hone wala hai woh<br><strong>pure library madness</strong> hai 😤</p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>Scene Setup 📍</h1>
+    <p>Imagine Prasann is standing in<br>the <strong>Central Library of RGPV</strong>...<br>with one mission only:<br><em>"Get the damn form signed!"</em></p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>Manish Sir Ka Chakkar 🌀</h1>
+    <p>Today I went to the library to get my no dues form signed...<br>
+    Receptionist signed it and said: <br>
+    <em>"Ab jaake Manish Sir se sign karwa lo."</em><br>
+    Bas fir kya... mission started.</p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>Level 1 – The Search Begins 🏃‍♂️</h1>
+    <p>I entered detective mode instantly 🔍<br>
+    Office – ❌<br>
+    1st Floor – ❌<br>
+    2nd Floor – ❌<br>
+    Roof tak chadh gaya bhai...<br><strong>Still no sign of Manish Sir 😭</strong><br><br>
+    Me, after 20 mins: <em>"Shayad Manish Sir exist hi nahi karte..."</em><br>
+    Library ka har kona check kar chuka tha.</p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>Level 2 – Rooftop Realizations 🏢</h1>
+    <p>Thak chuka tha...<br>
+    I reached the rooftop, tired 😩<br>
+    Manish Sir yaha bhi nahi the 😭<br><br>
+    And guess what?<br>
+    <strong>I legit started talking to the crows </strong></p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>Level 3 – Enter: The Calm Villain 👿</h1>
+    <p>
+      After roaming like Dora the Explorer, I finally saw a guy sitting quietly on 1st floor <br><br>
+      I asked, <em>"Bhaiya Manish Sir kahan milenge?"</em><br>
+      He replied: <br>
+      <strong><em>"Shayad Computer Lab mein ho..."</em></strong> 🧘‍♂️<br><br>
+      Me: <em>"Waah! Finally koi clue mila!"</em> 😃<br>
+      (Little did I know... I just met the <strong>main villain</strong> of this story) 😩
+    </p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>Level 4 – The Empty Computer Lab 💀</h1>
+    <p>
+      Full josh mein I reached the computer lab... 🏃‍♂️<br>
+      Opposite side, just like he said...<br><br>
+      But as I entered...<br>
+      <strong><em>Dead silence.</em></strong><br>
+      <em>Ek banda tak nahi.</em> Not even a mosquito. <br><br>
+      I stood there like Joker: <br>
+      <strong>"yeh sab mere sath hi kyu hota hai?"</strong> 😔
+    </p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide" style="background-color: #2c3e50; color: #ecf0f1;">
+    <h1>Something's Coming... 👀</h1>
+    <p>
+      You've seen the search...<br>
+      Felt the pain... <br><br>
+      But now...<br>
+      <strong>The Real Twist Begins!</strong>
+    </p>
+    <button class="btn" onclick="nextSlide()" style="background-color: #e67e22; color: #fff;">GOOO 👉</button>
+  </div>
+
+  <div class="slide" style="background-color: #ffe6e6; color: #2d3436;">
+    <h1>🧠💥 PLOT. FREAKING. TWIST.</h1>
+    <p>
+      Remember that calm, cool guy who said:<br>
+      <em>“Sir must be in the computer lab.”</em> 😌<br><br>
+      AFTER 1 HOUR OF RUNNING AROUND...<br>
+      Guess who walks in casually...<br><br>
+      <strong>He takes my form… signs it… hands it back…</strong><br>
+      And I’m like: <br><br>
+      <strong style="font-size: 1.4em;">“YOU'RE MANISH SIR?!?!!” 😱💀💀💀</strong><br><br>
+      I was betrayed. I was... TIRED. 😭
+    </p>
+    <button class="btn" onclick="nextSlide()" style="background-color: #d63031; color: #fff;">Bro WHAT?! 🤯</button>
+  </div>
+
+  <div class="slide">
+    <h1>💥 Conclusion 💥</h1>
+    <p>Pehle hi jeevan kam maze le raha tha jo librarian ne bhi le liye! 😩<br><br>
+    Moral of the story: <br><strong>Life is not a straight line, it's a treasure hunt with plot twists </strong><br><br>
+    Special thanks to: <em>Legendary Manish Sir 👑</em></p>
+    <button class="btn" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <h1>🎉 Your Turn! 🎉</h1>
+    <p id="revealText" class="letter-reveal"></p>
+    <button class="btn" onclick="revealMessage()">Reveal Message</button>
+    <button class="btn" onclick="restartSlide()">Start Again</button>
+  </div>
+
+  <script>
+    let current = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function nextSlide() {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }
+
+    function restartSlide() {
+      slides[current].classList.remove('active');
+      current = 0;
+      slides[current].classList.add('active');
+      document.getElementById("revealText").innerText = "";
+    }
+
+    function revealMessage() {
+      const text = "If you liked the story, don't forget to give your epic reaction to Prasann 😎💬";
+      const output = document.getElementById("revealText");
+      output.innerText = "";
+      let i = 0;
+      const interval = setInterval(() => {
+        output.innerText += text.charAt(i);
+        i++;
+        if (i >= text.length) clearInterval(interval);
+      }, 50);
+    }
+  </script>
+
+</body>
+</html>
